@@ -24,7 +24,7 @@ export function Mountain(props: any) {
       </mesh>
 
       <RigidBody
-        position={new Vector3(-43, 30, 56.6)}
+        position={new Vector3(-44, 28, 54.6)}
         colliders="hull"
         type="fixed"
         scale={new Vector3(30, 30, 30)}

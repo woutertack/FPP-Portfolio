@@ -8,7 +8,7 @@ import { EdgeDetectionMode, SMAAPreset } from "postprocessing";
  */
 export namespace SettingsLevaEffectsSMAA {
   export const edgeDetectionMode = (
-    value: EdgeDetectionMode = EdgeDetectionMode.COLOR
+    value: EdgeDetectionMode = EdgeDetectionMode.COLOR,
   ) => ({
     label: "Edge Detection Mode",
     hint: "The edge detection mode. Default = EdgeDetectionMode.COLOR.",

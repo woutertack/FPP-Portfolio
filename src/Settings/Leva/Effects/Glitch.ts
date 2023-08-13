@@ -23,7 +23,10 @@ export namespace SettingsLevaEffectsGlitch {
   });
 
   export const delay = (
-    value: { minimum: number; maximum: number } = { minimum: 1.5, maximum: 3.5 }
+    value: { minimum: number; maximum: number } = {
+      minimum: 1.5,
+      maximum: 3.5,
+    },
   ) => ({
     label: "Delay",
     hint: "The minimum and maximum delay between glitch activations in seconds.",
@@ -43,7 +46,10 @@ export namespace SettingsLevaEffectsGlitch {
   });
 
   export const duration = (
-    value: { minimum: number; maximum: number } = { minimum: 0.6, maximum: 1.0 }
+    value: { minimum: number; maximum: number } = {
+      minimum: 0.6,
+      maximum: 1.0,
+    },
   ) => ({
     label: "Duration",
     hint: "The minimum and maximum duration of a glitch in seconds.",
@@ -75,7 +81,7 @@ export namespace SettingsLevaEffectsGlitch {
   });
 
   export const strength = (
-    value: { weak: number; strong: number } = { weak: 0.3, strong: 1.0 }
+    value: { weak: number; strong: number } = { weak: 0.3, strong: 1.0 },
   ) => ({
     label: "Strength",
     hint: "The strength of weak and strong glitches.",

@@ -25,20 +25,20 @@ const MaterialNormal = (): JSX.Element => {
                 side: Material.side(),
                 transparent: Material.transparent(),
               },
-              Settings.folder(LEVA.ORDER.MATERIAL)
+              Settings.folder(LEVA.ORDER.MATERIAL),
             ),
             "Normal Material": folder(
               {
                 flatShading: NormalMaterial.flatShading(),
                 wireframe: NormalMaterial.wireframe(),
               },
-              Settings.folder(LEVA.ORDER.NORMAL_MATERIAL)
+              Settings.folder(LEVA.ORDER.NORMAL_MATERIAL),
             ),
           },
-          Settings.folder(LEVA.ORDER.MATERIALS)
+          Settings.folder(LEVA.ORDER.MATERIALS),
         ),
       },
-      Settings.folder(LEVA.ORDER.COMPONENTS)
+      Settings.folder(LEVA.ORDER.COMPONENTS),
     );
 
   return (

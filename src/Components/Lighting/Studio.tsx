@@ -16,7 +16,7 @@ const LightingStudio = (): JSX.Element => {
       helpers: SettingsLevaLighting.helpers(),
       helperSize: SettingsLevaLighting.helperSize(),
     },
-    Settings.folder(LEVA.ORDER.LIGHTING)
+    Settings.folder(LEVA.ORDER.LIGHTING),
   );
   const ambientLight = useControls(
     LEVA.SCHEMA.LIGHTING,
@@ -26,10 +26,10 @@ const LightingStudio = (): JSX.Element => {
           color: SettingsLevaColor.color(SettingsLevaColor.values.Warm),
           intensity: SettingsLevaLighting.intensity(0.1, 1),
         },
-        Settings.folder()
+        Settings.folder(),
       ),
     },
-    Settings.folder(LEVA.ORDER.LIGHTING)
+    Settings.folder(LEVA.ORDER.LIGHTING),
   );
   const frontLight = useControls(
     LEVA.SCHEMA.LIGHTING,
@@ -41,10 +41,10 @@ const LightingStudio = (): JSX.Element => {
           intensity: SettingsLevaLighting.intensity(0.4),
           position: SettingsLevaPosition.position(0, 2, 4),
         },
-        Settings.folder()
+        Settings.folder(),
       ),
     },
-    Settings.folder(LEVA.ORDER.LIGHTING)
+    Settings.folder(LEVA.ORDER.LIGHTING),
   );
   const leftLight = useControls(
     LEVA.SCHEMA.LIGHTING,
@@ -56,10 +56,10 @@ const LightingStudio = (): JSX.Element => {
           intensity: SettingsLevaLighting.intensity(),
           position: SettingsLevaPosition.position(-4, 0, 0),
         },
-        Settings.folder()
+        Settings.folder(),
       ),
     },
-    Settings.folder(LEVA.ORDER.LIGHTING)
+    Settings.folder(LEVA.ORDER.LIGHTING),
   );
   const rightLight = useControls(
     LEVA.SCHEMA.LIGHTING,
@@ -71,10 +71,10 @@ const LightingStudio = (): JSX.Element => {
           intensity: SettingsLevaLighting.intensity(),
           position: SettingsLevaPosition.position(4, 0, 0),
         },
-        Settings.folder()
+        Settings.folder(),
       ),
     },
-    Settings.folder(LEVA.ORDER.LIGHTING)
+    Settings.folder(LEVA.ORDER.LIGHTING),
   );
 
   const frontLightRef = useRef<DirectionalLight>(null);
@@ -85,19 +85,19 @@ const LightingStudio = (): JSX.Element => {
     helpers ? frontLightRef : null,
     DirectionalLightHelper,
     helperSize * frontLight.intensity,
-    frontLight.color
+    frontLight.color,
   );
   useHelper(
     helpers ? leftLightRef : null,
     DirectionalLightHelper,
     helperSize * leftLight.intensity,
-    leftLight.color
+    leftLight.color,
   );
   useHelper(
     helpers ? rightLightRef : null,
     DirectionalLightHelper,
     helperSize * rightLight.intensity,
-    rightLight.color
+    rightLight.color,
   );
 
   return (

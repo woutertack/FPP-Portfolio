@@ -53,10 +53,10 @@ const Effects = () => {
             value: EFFECT.None,
           },
         },
-        Settings.folder(LEVA.ORDER.EFFECTS_COMPOSER)
+        Settings.folder(LEVA.ORDER.EFFECTS_COMPOSER),
       ),
     },
-    Settings.folder(LEVA.ORDER.GENERAL)
+    Settings.folder(LEVA.ORDER.GENERAL),
   );
 
   function enableEffect(name: string, element: JSX.Element) {

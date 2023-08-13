@@ -46,7 +46,7 @@ const MaterialPhysical = (): JSX.Element => {
               side: Material.side(),
               transparent: Material.transparent(),
             },
-            Settings.folder(LEVA.ORDER.MATERIAL)
+            Settings.folder(LEVA.ORDER.MATERIAL),
           ),
           "Standard Material": folder(
             {
@@ -58,7 +58,7 @@ const MaterialPhysical = (): JSX.Element => {
               roughness: StandardMaterial.roughness(),
               wireframe: StandardMaterial.wireframe(),
             },
-            Settings.folder(LEVA.ORDER.STANDARD_MATERIAL)
+            Settings.folder(LEVA.ORDER.STANDARD_MATERIAL),
           ),
           "Physical Material": folder(
             {
@@ -72,13 +72,13 @@ const MaterialPhysical = (): JSX.Element => {
               thickness: PhysicalMaterial.thickness(),
               transmission: PhysicalMaterial.transmission(),
             },
-            Settings.folder(LEVA.ORDER.PHYSICAL_MATERIAL)
+            Settings.folder(LEVA.ORDER.PHYSICAL_MATERIAL),
           ),
         },
-        Settings.folder(LEVA.ORDER.MATERIALS)
+        Settings.folder(LEVA.ORDER.MATERIALS),
       ),
     },
-    Settings.folder(LEVA.ORDER.COMPONENTS)
+    Settings.folder(LEVA.ORDER.COMPONENTS),
   );
 
   return (

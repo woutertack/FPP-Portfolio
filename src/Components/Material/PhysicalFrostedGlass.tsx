@@ -15,7 +15,7 @@ const MaterialPhysicalFrostedGlass = (): JSX.Element => {
         transmission: PhysicalMaterial.transmission(1.0),
       }),
     },
-    Settings.folder(LEVA.ORDER.COMPONENTS)
+    Settings.folder(LEVA.ORDER.COMPONENTS),
   );
 
   return (

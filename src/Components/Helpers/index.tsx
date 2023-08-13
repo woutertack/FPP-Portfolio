@@ -25,10 +25,10 @@ const Helpers = (props: GroupProps): JSX.Element => {
             polarGridHelper: SettingsLevaHelpers.polarGridHelper(),
             stats: SettingsLevaHelpers.stats(),
           },
-          Settings.folder(LEVA.ORDER.HELPERS)
+          Settings.folder(LEVA.ORDER.HELPERS),
         ),
       },
-      Settings.folder(LEVA.ORDER.GENERAL)
+      Settings.folder(LEVA.ORDER.GENERAL),
     );
 
   return (

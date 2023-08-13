@@ -30,7 +30,7 @@ const LightingDemo = (): JSX.Element => {
       helpers: LevaLighting.helpers(),
       helperSize: LevaLighting.helperSize(),
     },
-    Settings.folder(LEVA.ORDER.LIGHTING)
+    Settings.folder(LEVA.ORDER.LIGHTING),
   );
   const ambientLight = useControls(
     LEVA.SCHEMA.LIGHTING,
@@ -40,10 +40,10 @@ const LightingDemo = (): JSX.Element => {
           color: LevaColor.color(),
           intensity: LevaLighting.intensity(0.1, 1),
         },
-        Settings.folder()
+        Settings.folder(),
       ),
     },
-    Settings.folder(LEVA.ORDER.LIGHTING)
+    Settings.folder(LEVA.ORDER.LIGHTING),
   );
   const directionalLight = useControls(
     LEVA.SCHEMA.LIGHTING,
@@ -55,10 +55,10 @@ const LightingDemo = (): JSX.Element => {
           intensity: LevaLighting.intensity(1, 1),
           position: LevaPosition.position(4, 4, 1),
         },
-        Settings.folder()
+        Settings.folder(),
       ),
     },
-    Settings.folder(LEVA.ORDER.LIGHTING)
+    Settings.folder(LEVA.ORDER.LIGHTING),
   );
   const hemisphereLight = useControls(
     LEVA.SCHEMA.LIGHTING,
@@ -71,10 +71,10 @@ const LightingDemo = (): JSX.Element => {
           intensity: LevaLighting.intensity(1, 1),
           position: LevaPosition.position(0, 1, 0),
         },
-        Settings.folder()
+        Settings.folder(),
       ),
     },
-    Settings.folder(LEVA.ORDER.LIGHTING)
+    Settings.folder(LEVA.ORDER.LIGHTING),
   );
   const pointLight = useControls(
     LEVA.SCHEMA.LIGHTING,
@@ -86,10 +86,10 @@ const LightingDemo = (): JSX.Element => {
           intensity: LevaLighting.intensity(0.5, 20),
           position: LevaPosition.position(-4, 1, 4),
         },
-        Settings.folder()
+        Settings.folder(),
       ),
     },
-    Settings.folder(LEVA.ORDER.LIGHTING)
+    Settings.folder(LEVA.ORDER.LIGHTING),
   );
   const spotLight = useControls(
     LEVA.SCHEMA.LIGHTING,
@@ -104,10 +104,10 @@ const LightingDemo = (): JSX.Element => {
           position: LevaPosition.position(2, 2, 2),
           target: LevaLighting.target(),
         },
-        Settings.folder()
+        Settings.folder(),
       ),
     },
-    Settings.folder(LEVA.ORDER.LIGHTING)
+    Settings.folder(LEVA.ORDER.LIGHTING),
   );
 
   const { scene } = useThree();
@@ -123,20 +123,20 @@ const LightingDemo = (): JSX.Element => {
     helpers ? directionalLightRef : null,
     DirectionalLightHelper,
     helperSize * directionalLight.intensity,
-    directionalLight.color
+    directionalLight.color,
   );
 
   useHelper(
     helpers ? pointLightRef : null,
     PointLightHelper,
     helperSize * (pointLight.intensity / intensityMax),
-    pointLight.color
+    pointLight.color,
   );
   useHelper(helpers ? spotLightRef : null, SpotLightHelper, spotLight.color);
   useHelper(
     helpers ? hemisphereLightRef : null,
     HemisphereLightHelper,
-    helperSize * hemisphereLight.intensity
+    helperSize * hemisphereLight.intensity,
   );
 
   useFrame(() => {

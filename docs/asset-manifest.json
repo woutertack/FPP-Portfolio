@@ -6,8 +6,5 @@
     "main.7ecebcca.css.map": "/gdm-xr-fpp/static/css/main.7ecebcca.css.map",
     "main.8e95f6b6.js.map": "/gdm-xr-fpp/static/js/main.8e95f6b6.js.map"
   },
-  "entrypoints": [
-    "static/css/main.7ecebcca.css",
-    "static/js/main.8e95f6b6.js"
-  ]
+  "entrypoints": ["static/css/main.7ecebcca.css", "static/js/main.8e95f6b6.js"]
 }

@@ -27,20 +27,20 @@ const MaterialMatcap = (): JSX.Element => {
                 side: Material.side(),
                 transparent: Material.transparent(),
               },
-              Settings.folder(LEVA.ORDER.MATERIAL)
+              Settings.folder(LEVA.ORDER.MATERIAL),
             ),
             "Matcap Material": folder(
               {
                 color: MatcapMaterial.color(),
                 flatShading: MatcapMaterial.flatShading(),
               },
-              Settings.folder(LEVA.ORDER.MATCAP_MATERIAL)
+              Settings.folder(LEVA.ORDER.MATCAP_MATERIAL),
             ),
           },
-          Settings.folder(LEVA.ORDER.MATERIALS)
+          Settings.folder(LEVA.ORDER.MATERIALS),
         ),
       },
-      Settings.folder(LEVA.ORDER.COMPONENTS)
+      Settings.folder(LEVA.ORDER.COMPONENTS),
     );
   const [matcap] = useMatcapTexture(MATCAP.ID.WORN_GOLD, MATCAP.SIZE.XL);
 

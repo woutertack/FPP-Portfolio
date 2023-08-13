@@ -33,7 +33,7 @@ const MaterialLambert = (): JSX.Element => {
               side: Material.side(),
               transparent: Material.transparent(),
             },
-            Settings.folder(LEVA.ORDER.MATERIAL)
+            Settings.folder(LEVA.ORDER.MATERIAL),
           ),
           "Lambert Material": folder(
             {
@@ -42,13 +42,13 @@ const MaterialLambert = (): JSX.Element => {
               emissiveIntensity: LambertMaterial.emissiveIntensity(),
               wireframe: LambertMaterial.wireframe(),
             },
-            Settings.folder(LEVA.ORDER.LAMBERT_MATERIAL)
+            Settings.folder(LEVA.ORDER.LAMBERT_MATERIAL),
           ),
         },
-        Settings.folder(LEVA.ORDER.MATERIALS)
+        Settings.folder(LEVA.ORDER.MATERIALS),
       ),
     },
-    Settings.folder(LEVA.ORDER.COMPONENTS)
+    Settings.folder(LEVA.ORDER.COMPONENTS),
   );
 
   return (

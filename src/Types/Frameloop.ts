@@ -1,1 +1,1 @@
-export type Frameloop = "always" | "demand" | "never"
+export type Frameloop = "always" | "demand" | "never";

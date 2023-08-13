@@ -43,7 +43,7 @@ const MaterialStandardNormalMap = (): JSX.Element => {
         }),
       }),
     },
-    Settings.folder(LEVA.ORDER.COMPONENTS)
+    Settings.folder(LEVA.ORDER.COMPONENTS),
   );
   const [normalMap] = useNormalTexture(
     normalTextureId, // Index or file name, see: https://github.com/emmelleppi/normal-maps/
@@ -51,7 +51,7 @@ const MaterialStandardNormalMap = (): JSX.Element => {
       anisotropy: normalAnisotropy,
       offset: [normalOffset.x, normalOffset.y],
       repeat: [normalRepeat.x, normalRepeat.y],
-    }
+    },
   );
 
   return (

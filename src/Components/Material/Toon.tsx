@@ -32,7 +32,7 @@ const MaterialToon = (): JSX.Element => {
               side: Material.side(),
               transparent: Material.transparent(),
             },
-            Settings.folder(LEVA.ORDER.MATERIAL)
+            Settings.folder(LEVA.ORDER.MATERIAL),
           ),
           "Toon Material": folder(
             {
@@ -41,13 +41,13 @@ const MaterialToon = (): JSX.Element => {
               emissiveIntensity: ToonMaterial.emissiveIntensity(),
               wireframe: ToonMaterial.wireframe(),
             },
-            Settings.folder(LEVA.ORDER.TOON_MATERIAL)
+            Settings.folder(LEVA.ORDER.TOON_MATERIAL),
           ),
         },
-        Settings.folder(LEVA.ORDER.MATERIALS)
+        Settings.folder(LEVA.ORDER.MATERIALS),
       ),
     },
-    Settings.folder(LEVA.ORDER.COMPONENTS)
+    Settings.folder(LEVA.ORDER.COMPONENTS),
   );
 
   return (

@@ -4,7 +4,7 @@ export namespace SettingsLevaPhysics {
   export const gravity = (
     x: number = 0,
     y: number = -GRAVITATIONAL_ACCELERATION,
-    z: number = 0
+    z: number = 0,
   ) => ({
     label: "Gravity",
     hint: "Default = 9.81",

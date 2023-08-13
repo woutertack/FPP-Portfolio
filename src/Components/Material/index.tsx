@@ -86,10 +86,10 @@ const Material = () => {
             value: MATERIAL.Standard,
           },
         },
-        Settings.folder(LEVA.ORDER.MATERIALS)
+        Settings.folder(LEVA.ORDER.MATERIALS),
       ),
     },
-    Settings.folder(LEVA.ORDER.COMPONENTS)
+    Settings.folder(LEVA.ORDER.COMPONENTS),
   );
 
   return enableMaterial(materialName);

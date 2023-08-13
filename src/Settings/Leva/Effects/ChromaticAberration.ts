@@ -10,7 +10,7 @@ export namespace SettingsLevaEffectsChromaticAberration {
   export const blendFunction = Effects.blendFunction;
 
   export const offset = (
-    value: { x: number; y: number } = { x: 0.0, y: 0.0 }
+    value: { x: number; y: number } = { x: 0.0, y: 0.0 },
   ) => ({
     hint: "The color offset. Default = [0, 0]",
     label: "Offset",

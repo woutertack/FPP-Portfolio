@@ -1,1 +1,1 @@
-export type OrientationValue = "left" | "right"
+export type OrientationValue = "left" | "right";

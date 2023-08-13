@@ -46,7 +46,7 @@ const Lighting = () => {
         value: LIGHTING.Studio,
       },
     },
-    Settings.folder(LEVA.ORDER.LIGHTING)
+    Settings.folder(LEVA.ORDER.LIGHTING),
   );
 
   return enableLighting(lightingName);

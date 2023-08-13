@@ -33,7 +33,7 @@ const MaterialBasic = (): JSX.Element => {
               side: Material.side(),
               transparent: Material.transparent(),
             },
-            Settings.folder(LEVA.ORDER.MATERIAL)
+            Settings.folder(LEVA.ORDER.MATERIAL),
           ),
           "Basic Material": folder(
             {
@@ -42,13 +42,13 @@ const MaterialBasic = (): JSX.Element => {
               refractionRatio: BasicMaterial.refractionRatio(),
               wireframe: BasicMaterial.wireframe(),
             },
-            Settings.folder(LEVA.ORDER.BASIC_MATERIAL)
+            Settings.folder(LEVA.ORDER.BASIC_MATERIAL),
           ),
         },
-        Settings.folder(LEVA.ORDER.MATERIALS)
+        Settings.folder(LEVA.ORDER.MATERIALS),
       ),
     },
-    Settings.folder(LEVA.ORDER.COMPONENTS)
+    Settings.folder(LEVA.ORDER.COMPONENTS),
   );
 
   return (

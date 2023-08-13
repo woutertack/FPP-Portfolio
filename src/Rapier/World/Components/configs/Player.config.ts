@@ -6,6 +6,7 @@ export const PLAYER = Object.freeze({
   SIZE: 0.5, // radius in m
   VELOCITY: {
     FORWARD_DIRECTION: 3,
-    RIGHT_DIRECTION: 1,
+    RIGHT_DIRECTION: 2,
+    UP_DIRECTION: 3,
   },
 });

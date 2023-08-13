@@ -22,10 +22,10 @@ const EffectsColorAverage = () => {
             blendFunction: ColorAverageEffect.blendFunction(),
           }),
         },
-        Settings.folder(LEVA.ORDER.EFFECTS_COMPOSER)
+        Settings.folder(LEVA.ORDER.EFFECTS_COMPOSER),
       ),
     },
-    Settings.folder(LEVA.ORDER.GENERAL)
+    Settings.folder(LEVA.ORDER.GENERAL),
   );
 
   return (

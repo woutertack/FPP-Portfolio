@@ -15,20 +15,20 @@ export function Mountain(props: any) {
   return (
     <>
       <mesh
-        position={props.position}
+        position={new Vector3(-40.5, -0.05, 60.4)}
         type="fixed"
-        scale={new Vector3(50.3, 50.3, 50.3)}
+        scale={new Vector3(50, 50, 50)}
         rotation={new Euler(0, MathUtils.degToRad(-120), 0)}
       >
         <primitive object={mountainScene} />
       </mesh>
 
       <RigidBody
-        position={new Vector3(-4.9, 2, -10.6)}
+        position={new Vector3(-43, 30, 56.6)}
         colliders="hull"
         type="fixed"
-        scale={new Vector3(3.3, 3.3, 3.3)}
-        rotation={new Euler(0, MathUtils.degToRad(-120), 0)}
+        scale={new Vector3(30, 30, 30)}
+        rotation={new Euler(0, MathUtils.degToRad(0), 0)}
       >
         <primitive object={flagScene} />
       </RigidBody>

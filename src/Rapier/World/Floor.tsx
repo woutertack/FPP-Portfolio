@@ -2,7 +2,7 @@ import { Circle, Cylinder, useTexture } from "@react-three/drei";
 import { MeshCollider, RigidBody } from "@react-three/rapier";
 import { Euler, MathUtils } from "three";
 
-const PLANE_SIZE = 20;
+const PLANE_SIZE = 200;
 
 const RapierWorldFloor = (props: any) => {
   const args = [PLANE_SIZE, PLANE_SIZE] as [number, number];

@@ -32,7 +32,7 @@ export function Work(props: any) {
         rotation={new Euler(0, MathUtils.degToRad(70), 0)}
         type="fixed"
         fontSize={0.35}
-        color="black"
+        color={0xFFFFFF}
       >
         React JS / MongoDB
       </Text>
@@ -53,7 +53,7 @@ export function Work(props: any) {
         rotation={new Euler(0, MathUtils.degToRad(50), 0)}
         type="fixed"
         fontSize={0.35}
-        color="black"
+        color={0xFFFFFF}
       >
         Vanilla JS / Firebase
       </Text>

@@ -23,7 +23,7 @@ const Socials = (props: any) => {
         rotation={new Euler(0, MathUtils.degToRad(198), 0)}
         type="fixed"
         fontSize={1.5}
-        color={0x000000}
+        color={0xFFFFFF}
       >
         My socials
       </Text>
@@ -71,7 +71,7 @@ const Socials = (props: any) => {
                 rotation={social.rotation}
                 type="fixed"
                 fontSize={0.5}
-                color={0x000000}
+                color={0xFFFFFF}
                 // when you click on the name the link will open in a new tab
                 onDoubleClick={() => handleSocialClick(social.url)}
               >

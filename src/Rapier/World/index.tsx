@@ -133,8 +133,8 @@ color={(0xCCCCCC)}
       <NameText />
       <Court />
       <Socials />
-      <Mountain position={new Vector3(-40.5, -2, 60.4)}/>
-      {/* <Mountain position={new Vector3(40.5, -2, 20.4)}/> */}
+      <Mountain />
+    
       <Floor />
       <Player />
     </group>

@@ -69,7 +69,7 @@ export function Ball(props: any) {
         rotation={new Euler(0, MathUtils.degToRad(-50), 0)}
         type="fixed"
         fontSize={1.5}
-        color={0x000000}
+        color={0xFFFFFFF}
       >
         {rightScore} : {leftScore}
       </Text>

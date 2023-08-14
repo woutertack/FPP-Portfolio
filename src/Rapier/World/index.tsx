@@ -18,6 +18,8 @@ import Mountain from "./Components/Mountain";
 import SpotLights from "./Components/Spotlights";
 import { Bushes } from "./Components/nature/Bushes";
 import { Stump } from "./Components/nature/Stump";
+import { Grass } from "./Components/nature/Grass";
+import { Trees } from "./Components/nature/Trees";
 
 const RapierWorld = (props: GroupProps) => {
   return (
@@ -65,6 +67,8 @@ const RapierWorld = (props: GroupProps) => {
       <Mountain />
       <Bushes />
       <Stump />
+      <Trees />
+      {/* <Grass /> */}
 
       <Floor />
       <Player />

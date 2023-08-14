@@ -1,10 +1,10 @@
 // Credits cat model: https://free3d.com/3d-model/cat-v1--326682.html
 // Credits cat sound: https://mixkit.co/free-sound-effects/cat/
 
-import React, { useState, useEffect, useRef } from "react";
+
 import { Vector3, Euler, MathUtils } from "three/src/Three";
-import { MeshCollider, RigidBody } from "@react-three/rapier";
-import { Html, useGLTF, PointerLockControls, Text } from "@react-three/drei";
+import {  RigidBody } from "@react-three/rapier";
+import { useGLTF } from "@react-three/drei";
 import cat from "./assets/cat.gltf";
 
 // Import your sound file

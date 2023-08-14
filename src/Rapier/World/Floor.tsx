@@ -1,4 +1,4 @@
-import { Circle, Cylinder, useTexture } from "@react-three/drei";
+import { Circle } from "@react-three/drei";
 import { MeshCollider, RigidBody } from "@react-three/rapier";
 import { Euler, MathUtils } from "three";
 
@@ -10,16 +10,6 @@ const RapierWorldFloor = (props: any) => {
 
   return (
     <>
-      {/* <RigidBody
-    type="fixed"
-    colliders="trimesh"
-    >
-      <Cylinder 
-      args={[1,1,0.5,20]}
-      >
-        <meshBasicMaterial color={0x424549}/>
-      </Cylinder>
-    </RigidBody> */}
       <RigidBody type="fixed" friction={1}>
         <MeshCollider type="trimesh">
           <Circle args={args} rotation={rotation} {...props}>

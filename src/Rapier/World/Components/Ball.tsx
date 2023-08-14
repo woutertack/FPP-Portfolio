@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Vector3, Euler, MathUtils } from "three/src/Three";
-import { Html, useGLTF, PointerLockControls, Text } from "@react-three/drei";
+import {  useGLTF, Text } from "@react-three/drei";
 import ball from "./assets/ball.gltf";
 import { RigidBody } from "@react-three/rapier";
 import { useFrame } from "@react-three/fiber";
@@ -42,16 +42,7 @@ export function Ball(props: any) {
     }
   });
 
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      console.log("Ball Position:", ballPosition);
-    }, 2000);
-
-    return () => {
-      clearInterval(intervalId);
-    };
-  }, [ballPosition]);
-
+ 
   return (
     <>
       <RigidBody

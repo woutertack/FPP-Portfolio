@@ -8,7 +8,7 @@ import {
   useTexture,
   Sphere,
 } from "@react-three/drei";
-import { Vector3, Euler, MathUtils, MeshStandardMaterial } from "three";
+import { Vector3, Euler, MathUtils } from "three";
 
 import court from "./assets/court.gltf";
 import Ball from "./Ball";
@@ -30,7 +30,7 @@ const Court = (props: any) => {
         <primitive object={courtScene.scene} />
       </RigidBody>
       
-      {/* ball */}
+     
       <Ball />
     </>
   );

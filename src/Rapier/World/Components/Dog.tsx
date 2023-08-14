@@ -1,10 +1,10 @@
 // Credits dog model: https://market.pmnd.rs/model/dogue
 // Credits dog sound: https://mixkit.co/free-sound-effects/dog/
 
-import React, { useState, useEffect, useRef } from "react";
+
 import { Vector3, Euler, MathUtils } from "three/src/Three";
-import { MeshCollider, RigidBody } from "@react-three/rapier";
-import { Html, useGLTF, PointerLockControls, Text } from "@react-three/drei";
+import {  RigidBody } from "@react-three/rapier";
+import { useGLTF} from "@react-three/drei";
 import dog from "./assets/dog.gltf";
 
 // Import your sound file

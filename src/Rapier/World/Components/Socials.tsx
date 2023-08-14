@@ -1,7 +1,7 @@
-import { Box, Html, Text, useGLTF, useTexture } from "@react-three/drei";
-import { MeshCollider, RigidBody } from "@react-three/rapier";
-import { useRef, useState } from "react";
-import { FrontSide, Vector3, Euler, MathUtils } from "three";
+import {  Text, useGLTF } from "@react-three/drei";
+import {  RigidBody } from "@react-three/rapier";
+
+import {  Vector3, Euler, MathUtils } from "three";
 import { SOCIALS } from "./configs/Socials.config";
 import insta from "./assets/insta.gltf";
 import github from "./assets/github.gltf";

@@ -1,10 +1,8 @@
-import React, { useState, useEffect, useRef } from "react";
+
 import { Vector3, Euler, MathUtils } from "three/src/Three";
-import { Html, useGLTF, PointerLockControls, Text } from "@react-three/drei";
+import {  useGLTF, Text } from "@react-three/drei";
 import work1 from "./assets/work1.gltf";
 import work2 from "./assets/work2.gltf";
-import { RigidBody } from "@react-three/rapier";
-import { useFrame } from "@react-three/fiber";
 
 export function Work(props: any) {
   const { scene: work1Scene }: any = useGLTF(work1);

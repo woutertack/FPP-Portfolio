@@ -74,7 +74,7 @@ const SceneRapierFirstPersonLayout = ({
         <Suspense fallback={<LoadingScreen />}>
           {!isLoading ? (
             <>
-              {/* <Helpers />  */}
+              
               <Lighting />
               {/* changed keybindings to qwerty so you can use arrows and QWERTY */}
               <KeyboardControls map={KEYBINDINGS.QWERTY}>
@@ -86,7 +86,6 @@ const SceneRapierFirstPersonLayout = ({
                   updatePriority={undefined}
                 >
                   {children}
-                  {/* {showDebug && <Debug />} */}
                 </Physics>
               </KeyboardControls>
             </>

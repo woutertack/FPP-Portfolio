@@ -68,7 +68,7 @@ const RapierWorld = (props: GroupProps) => {
       <Bushes />
       <Stump />
       <Trees />
-      {/* <Grass /> */}
+      <Grass />
 
       <Floor />
       <Player />

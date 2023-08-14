@@ -1,3 +1,5 @@
+// Credits gltf models: https://iconscout.com/3ds/
+
 import {  Text, useGLTF } from "@react-three/drei";
 import {  RigidBody } from "@react-three/rapier";
 
@@ -11,7 +13,7 @@ const Socials = (props: any) => {
   const { scene: instaScene }: any = useGLTF(insta);
   const { scene: githubScene }: any = useGLTF(github);
   const { scene: linkedinScene }: any = useGLTF(linkedin);
-
+  
   const handleSocialClick = (url: string) => {
     window.open(url, "_blank");
   };
@@ -68,10 +70,18 @@ const Socials = (props: any) => {
                     social.position[2],
                   )
                 }
+           
                 rotation={social.rotation}
                 type="fixed"
                 fontSize={0.5}
                 color={0xFFFFFF}
+                onPointerEnter={(e) => {
+                  e.object.scale.set(1.4, 1.4, 1.4);
+                
+                }}
+                onPointerLeave={(e) => {
+                  e.object.scale.set(1, 1, 1);
+                }}
                 // when you click on the name the link will open in a new tab
                 onDoubleClick={() => handleSocialClick(social.url)}
               >

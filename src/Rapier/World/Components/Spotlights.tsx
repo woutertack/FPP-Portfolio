@@ -54,7 +54,7 @@ export function SpotLights(props: any) {
         <primitive object={spotlightScene3} />
       </RigidBody>
 
-      {/* Light of the spots itself */}
+    {/* Light of the spots itself */}
       {/* spotlight 1 Corner footballfield */}
       <SpotLight
         color={0xaaaa77}

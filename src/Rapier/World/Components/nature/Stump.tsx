@@ -15,6 +15,7 @@ export function Stump(props: any) {
         {...props}
         position={new Vector3(-5.2, 0, 7.2)}
         type="fixed"
+        colliders="hull"
         scale={0.6}
       >
         <primitive object={stumpScene} />

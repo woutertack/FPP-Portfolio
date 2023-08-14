@@ -6,20 +6,27 @@ import grass from "../assets/nature/grass.gltf";
 
 
 export function Grass(props: any) {
-  const { scene: grassScene }: any = useGLTF(grass);
-  
-
+  const { nodes, materials }: any = useGLTF(grass, true);
+  console.log(nodes, materials);
   return (
     <>
+    <group {...props} dispose={null}>
+      {Array.from({ length: 3000 }, (_, index) => (
       <mesh
+        key={index}
         {...props}
-        position={new Vector3(0, 0, 0)}
+        geometry={nodes.Cube.geometry} material={materials.grass}
+        position={new Vector3(
+          Math.random() * 50 - 25,  
+          0,
+          Math.random() * 50 - 25 
+        )}
         type="fixed"
-        scale={1}
+        scale={Math.random() * 0.7}
       >
-        <primitive object={grassScene} />
       </mesh>
-
+    ))}
+    </group>
     </>
   );
 }

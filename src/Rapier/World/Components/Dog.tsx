@@ -7,7 +7,6 @@ import {  RigidBody } from "@react-three/rapier";
 import { useGLTF} from "@react-three/drei";
 import dog from "./assets/dog.gltf";
 
-// Import your sound file
 import bark from "./assets/dogBark.wav";
 
 export function Dog(props: any) {

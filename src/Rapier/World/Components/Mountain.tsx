@@ -23,10 +23,10 @@ export function Mountain(props: any) {
       </mesh>
 
       <RigidBody
-        position={new Vector3(-44, 28, 54.6)}
+        position={new Vector3(-46, 22, 50.6)}
         colliders="hull"
         type="fixed"
-        scale={new Vector3(30, 30, 30)}
+        scale={new Vector3(32, 30, 30)}
         rotation={new Euler(0, MathUtils.degToRad(0), 0)}
       >
         <primitive object={flagScene} />

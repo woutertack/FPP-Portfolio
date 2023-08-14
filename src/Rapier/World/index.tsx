@@ -12,7 +12,7 @@ import { NameText } from "./Components/NameText";
 import Work from "./Components/Work";
 import { Dog } from "./Components/Dog";
 import Cat from "./Components/Cat";
-import { Object3D } from "three";
+
 import Mountain from "./Components/Mountain";
 
 import SpotLights from "./Components/Spotlights";
@@ -20,6 +20,7 @@ import { Bushes } from "./Components/nature/Bushes";
 import { Stump } from "./Components/nature/Stump";
 import { Grass } from "./Components/nature/Grass";
 import { Trees } from "./Components/nature/Trees";
+import { Pinetrees } from "./Components/nature/Pinetrees";
 
 const RapierWorld = (props: GroupProps) => {
   return (
@@ -68,6 +69,7 @@ const RapierWorld = (props: GroupProps) => {
       <Bushes />
       <Stump />
       <Trees />
+      <Pinetrees />
       <Grass />
 
       <Floor />

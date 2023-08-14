@@ -15,7 +15,7 @@ export function Dog(props: any) {
 
   function playSound() {
     new Audio(bark).play();
-    console.log("bark");
+
   }
 
   return (

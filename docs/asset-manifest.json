@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/2ek-woutertack/static/css/main.9e024aec.css",
-    "main.js": "/2ek-woutertack/static/js/main.518006f4.js",
+    "main.js": "/2ek-woutertack/static/js/main.7fb12843.js",
     "static/media/cat.gltf": "/2ek-woutertack/static/media/cat.7b6b8f82e8e2d56024dd.gltf",
     "static/media/mountain.gltf": "/2ek-woutertack/static/media/mountain.9a92b64b8499f754ab46.gltf",
     "static/media/work1.gltf": "/2ek-woutertack/static/media/work1.1713e5effc1117282fdd.gltf",
+    "static/media/pinetree.gltf": "/2ek-woutertack/static/media/pinetree.2388cc95600db0652f82.gltf",
     "static/media/github.gltf": "/2ek-woutertack/static/media/github.f7d3098961063daac52a.gltf",
     "static/media/dogBark.wav": "/2ek-woutertack/static/media/dogBark.08f49e2aedf91f8a6ae1.wav",
     "static/media/linkedin.gltf": "/2ek-woutertack/static/media/linkedin.d85d5d311b255066ee3d.gltf",
@@ -37,10 +38,10 @@
     "static/media/T2.gltf": "/2ek-woutertack/static/media/T2.cee251bbf25992880b9f.gltf",
     "index.html": "/2ek-woutertack/index.html",
     "main.9e024aec.css.map": "/2ek-woutertack/static/css/main.9e024aec.css.map",
-    "main.518006f4.js.map": "/2ek-woutertack/static/js/main.518006f4.js.map"
+    "main.7fb12843.js.map": "/2ek-woutertack/static/js/main.7fb12843.js.map"
   },
   "entrypoints": [
     "static/css/main.9e024aec.css",
-    "static/js/main.518006f4.js"
+    "static/js/main.7fb12843.js"
   ]
 }

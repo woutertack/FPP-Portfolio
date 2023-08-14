@@ -70,7 +70,7 @@ export function NameText(props: any) {
       <RigidBody
         position={new Vector3(-10.7, 0.05, 12.4)}
         colliders="hull"
-        type="dynamic"
+        type="fixed"
         rotation={new Euler(0, MathUtils.degToRad(140), 0)}
       >
         <primitive object={letterE.scene} />

@@ -7,7 +7,7 @@ import grass from "../assets/nature/grass.gltf";
 
 export function Grass(props: any) {
   const { nodes, materials }: any = useGLTF(grass, true);
-  console.log(nodes, materials);
+  
   return (
     <>
     <group {...props} dispose={null}>

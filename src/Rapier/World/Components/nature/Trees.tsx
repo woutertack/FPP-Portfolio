@@ -9,6 +9,7 @@ import tree from "../assets/nature/tree.gltf";
 
 export function Tree(props: any) {
   const { nodes, materials }: any = useGLTF(tree);
+  
 
   return (
     <group {...props} dispose={null}>

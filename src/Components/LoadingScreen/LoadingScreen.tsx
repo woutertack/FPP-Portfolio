@@ -1,4 +1,3 @@
-// import { ClimbingBoxLoader } from "react-spinners";
 import { Html, useProgress } from "@react-three/drei";
 
 import "./LoadingScreen.css";

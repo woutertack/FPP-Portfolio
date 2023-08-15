@@ -1,6 +1,5 @@
-
 import { Vector3, Euler, MathUtils } from "three/src/Three";
-import {  useGLTF, Text } from "@react-three/drei";
+import { useGLTF, Text } from "@react-three/drei";
 import work1 from "./assets/work1.gltf";
 import work2 from "./assets/work2.gltf";
 
@@ -30,7 +29,7 @@ export function Work(props: any) {
         rotation={new Euler(0, MathUtils.degToRad(70), 0)}
         type="fixed"
         fontSize={0.35}
-        color={0xFFFFFF}
+        color={0xffffff}
       >
         React JS / MongoDB
       </Text>
@@ -51,7 +50,7 @@ export function Work(props: any) {
         rotation={new Euler(0, MathUtils.degToRad(50), 0)}
         type="fixed"
         fontSize={0.35}
-        color={0xFFFFFF}
+        color={0xffffff}
       >
         Vanilla JS / Firebase
       </Text>

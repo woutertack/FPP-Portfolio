@@ -1,6 +1,6 @@
-import React, { useState, useEffect, useRef } from "react";
+import  { useState, useRef } from "react";
 import { Vector3, Euler, MathUtils } from "three/src/Three";
-import {  useGLTF, Text } from "@react-three/drei";
+import { useGLTF, Text } from "@react-three/drei";
 import ball from "./assets/ball.gltf";
 import { RigidBody } from "@react-three/rapier";
 import { useFrame } from "@react-three/fiber";
@@ -9,6 +9,7 @@ export function Ball(props: any) {
   const { scene: ballScene }: any = useGLTF(ball);
   const ballRef = useRef<any>(null!);
   const [ballPosition, setBallPosition] = useState<Vector3>(new Vector3());
+  
 
   const [leftScore, setLeftScore] = useState(0);
   const [rightScore, setRightScore] = useState(0);
@@ -42,7 +43,6 @@ export function Ball(props: any) {
     }
   });
 
- 
   return (
     <>
       <RigidBody
@@ -60,7 +60,7 @@ export function Ball(props: any) {
         rotation={new Euler(0, MathUtils.degToRad(-50), 0)}
         type="fixed"
         fontSize={1.5}
-        color={0xFFFFFFF}
+        color={0xfffffff}
       >
         {rightScore} : {leftScore}
       </Text>

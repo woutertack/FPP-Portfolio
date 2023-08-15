@@ -1,6 +1,5 @@
-
 import { Vector3, Euler, MathUtils } from "three/src/Three";
-import {  useGLTF } from "@react-three/drei";
+import { useGLTF } from "@react-three/drei";
 import W from "./assets/name/W.gltf";
 import O from "./assets/name/O.gltf";
 import U from "./assets/name/U.gltf";

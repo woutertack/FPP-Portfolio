@@ -4,10 +4,8 @@ import { Vector3 } from "three";
 
 import stump from "../assets/nature/stump.gltf";
 
-
 export function Stump(props: any) {
   const { scene: stumpScene }: any = useGLTF(stump);
-  
 
   return (
     <>
@@ -20,7 +18,6 @@ export function Stump(props: any) {
       >
         <primitive object={stumpScene} />
       </RigidBody>
-
     </>
   );
 }

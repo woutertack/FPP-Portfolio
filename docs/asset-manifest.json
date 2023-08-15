@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/2ek-woutertack/static/css/main.9e024aec.css",
-    "main.js": "/2ek-woutertack/static/js/main.7fb12843.js",
+    "main.js": "/2ek-woutertack/static/js/main.6bcef72e.js",
     "static/media/cat.gltf": "/2ek-woutertack/static/media/cat.7b6b8f82e8e2d56024dd.gltf",
-    "static/media/mountain.gltf": "/2ek-woutertack/static/media/mountain.9a92b64b8499f754ab46.gltf",
+    "static/media/mountain.gltf": "/2ek-woutertack/static/media/mountain.c73d2098b6643d9ee57f.gltf",
     "static/media/work1.gltf": "/2ek-woutertack/static/media/work1.1713e5effc1117282fdd.gltf",
-    "static/media/pinetree.gltf": "/2ek-woutertack/static/media/pinetree.2388cc95600db0652f82.gltf",
+    "static/media/pinetree.gltf": "/2ek-woutertack/static/media/pinetree.347b41c868f7598f7794.gltf",
     "static/media/github.gltf": "/2ek-woutertack/static/media/github.f7d3098961063daac52a.gltf",
     "static/media/dogBark.wav": "/2ek-woutertack/static/media/dogBark.08f49e2aedf91f8a6ae1.wav",
     "static/media/linkedin.gltf": "/2ek-woutertack/static/media/linkedin.d85d5d311b255066ee3d.gltf",
@@ -17,19 +17,19 @@
     "static/media/O.gltf": "/2ek-woutertack/static/media/O.a8d7f28d0cfee25e6807.gltf",
     "static/media/U.gltf": "/2ek-woutertack/static/media/U.2b88e5a5ad81c4cfe681.gltf",
     "static/media/court.gltf": "/2ek-woutertack/static/media/court.8182de5662d7dea37481.gltf",
-    "static/media/spotlight.gltf": "/2ek-woutertack/static/media/spotlight.95315fa48e09ec9205b4.gltf",
-    "static/media/spotlight2.gltf": "/2ek-woutertack/static/media/spotlight2.95315fa48e09ec9205b4.gltf",
-    "static/media/spotlight3.gltf": "/2ek-woutertack/static/media/spotlight3.95315fa48e09ec9205b4.gltf",
-    "static/media/tree.gltf": "/2ek-woutertack/static/media/tree.528d6f87464b7ad264e9.gltf",
+    "static/media/tree.gltf": "/2ek-woutertack/static/media/tree.a844918cd224b0df2bdb.gltf",
+    "static/media/spotlight.gltf": "/2ek-woutertack/static/media/spotlight.f7ac875dd284493cc272.gltf",
+    "static/media/spotlight2.gltf": "/2ek-woutertack/static/media/spotlight2.f7ac875dd284493cc272.gltf",
+    "static/media/spotlight3.gltf": "/2ek-woutertack/static/media/spotlight3.f7ac875dd284493cc272.gltf",
     "static/media/dog.gltf": "/2ek-woutertack/static/media/dog.a512dc61eb97ecfb1b37.gltf",
-    "static/media/bush3.gltf": "/2ek-woutertack/static/media/bush3.23355c63c0b4c40ce29b.gltf",
-    "static/media/bush.gltf": "/2ek-woutertack/static/media/bush.18a16456a4a36778aa77.gltf",
-    "static/media/stump.gltf": "/2ek-woutertack/static/media/stump.a3bb55b41655973f276e.gltf",
-    "static/media/grass.gltf": "/2ek-woutertack/static/media/grass.078a07322f5766a2789f.gltf",
+    "static/media/stump.gltf": "/2ek-woutertack/static/media/stump.ef498687f5388f200a44.gltf",
+    "static/media/grass.gltf": "/2ek-woutertack/static/media/grass.3b014f4f81f2c06f91b6.gltf",
+    "static/media/bush3.gltf": "/2ek-woutertack/static/media/bush3.5dce769b8ffa43e09307.gltf",
+    "static/media/bush.gltf": "/2ek-woutertack/static/media/bush.9fc74365473b2a82b7d1.gltf",
     "static/media/flag.gltf": "/2ek-woutertack/static/media/flag.f71347230ffb9fe04cbd.gltf",
-    "static/media/bush4.gltf": "/2ek-woutertack/static/media/bush4.71e24d5ebce9a5c38134.gltf",
-    "static/media/bush2.gltf": "/2ek-woutertack/static/media/bush2.b7e33b29ff57dde0e1ce.gltf",
     "static/media/W.gltf": "/2ek-woutertack/static/media/W.127cfda0d58a9252dfbc.gltf",
+    "static/media/bush4.gltf": "/2ek-woutertack/static/media/bush4.3ac25bb2253a3093e024.gltf",
+    "static/media/bush2.gltf": "/2ek-woutertack/static/media/bush2.9feafdc615c80ab8cb42.gltf",
     "static/media/A.gltf": "/2ek-woutertack/static/media/A.1671ad8522ad11bb99cf.gltf",
     "static/media/E.gltf": "/2ek-woutertack/static/media/E.f88f6db335be42f602ca.gltf",
     "static/media/ball.gltf": "/2ek-woutertack/static/media/ball.321e1caedd9ebc17e113.gltf",
@@ -38,10 +38,10 @@
     "static/media/T2.gltf": "/2ek-woutertack/static/media/T2.cee251bbf25992880b9f.gltf",
     "index.html": "/2ek-woutertack/index.html",
     "main.9e024aec.css.map": "/2ek-woutertack/static/css/main.9e024aec.css.map",
-    "main.7fb12843.js.map": "/2ek-woutertack/static/js/main.7fb12843.js.map"
+    "main.6bcef72e.js.map": "/2ek-woutertack/static/js/main.6bcef72e.js.map"
   },
   "entrypoints": [
     "static/css/main.9e024aec.css",
-    "static/js/main.7fb12843.js"
+    "static/js/main.6bcef72e.js"
   ]
 }

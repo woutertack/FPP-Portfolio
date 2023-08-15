@@ -1,6 +1,6 @@
 import React from "react";
 import { Vector3, Euler, MathUtils, Object3D } from "three/src/Three";
-import {  RigidBody } from "@react-three/rapier";
+import { RigidBody } from "@react-three/rapier";
 import { useGLTF, SpotLight } from "@react-three/drei";
 import spotlight from "./assets/spotlight.gltf";
 import spotlight2 from "./assets/spotlight2.gltf";
@@ -54,7 +54,7 @@ export function SpotLights(props: any) {
         <primitive object={spotlightScene3} />
       </RigidBody>
 
-    {/* Light of the spots itself */}
+      {/* Light of the spots itself */}
       {/* spotlight 1 Corner footballfield */}
       <SpotLight
         color={0xaaaa77}

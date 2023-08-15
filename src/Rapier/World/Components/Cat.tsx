@@ -1,13 +1,10 @@
 // Credits cat model: https://free3d.com/3d-model/cat-v1--326682.html
 // Credits cat sound: https://mixkit.co/free-sound-effects/cat/
 
-
 import { Vector3, Euler, MathUtils } from "three/src/Three";
-import {  RigidBody } from "@react-three/rapier";
+import { RigidBody } from "@react-three/rapier";
 import { useGLTF } from "@react-three/drei";
 import cat from "./assets/cat.gltf";
-
-// Import your sound file
 import meow from "./assets/catMeow.wav";
 
 export function Cat(props: any) {

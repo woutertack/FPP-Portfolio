@@ -5,7 +5,7 @@ import {
 } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
 import { RigidBody } from "@react-three/rapier";
-import { useRef, useState, useEffect } from "react";
+import { useRef } from "react";
 import { Vector3 } from "three";
 
 import { PLAYER } from "../World/Components/configs/Player.config";
@@ -21,22 +21,6 @@ const RapierWorldPlayer = (props: any) => {
 
   const playerRef = useRef<any>(null!);
   const pointerRef = useRef<any>(null!);
-
-  //  Add a state to hold the player's position
-  const [playerPosition, setPlayerPosition] = useState<Vector3 | null>(null);
-
-  // Log player position every 1 second
-   useEffect(() => {
-     const interval = setInterval(() => {
-       if (playerRef.current) {
-         const playerPos = playerRef.current.translation();
-         console.log("Player Position:", playerPos);
-         setPlayerPosition(playerPos);
-       }
-     }, 1000);
-
-     return () => clearInterval(interval);
-   }, []);
 
   useFrame(() => {
     const camera = pointerRef.current.getObject();
@@ -87,7 +71,7 @@ const RapierWorldPlayer = (props: any) => {
         type="dynamic"
       >
         <Sphere args={[PLAYER.SIZE, 4, 4]}>
-          <meshBasicMaterial color={0x00ff00} wireframe={false} />
+          <meshBasicMaterial color={0xb8a686}  />
         </Sphere>
       </RigidBody>
     </group>

@@ -2,8 +2,8 @@
 // Credits cat sound: https://mixkit.co/free-sound-effects/cat/
 
 import { Vector3, Euler, MathUtils } from "three/src/Three";
-import {  RigidBody } from "@react-three/rapier";
-import {  useGLTF } from "@react-three/drei";
+import { RigidBody } from "@react-three/rapier";
+import { useGLTF } from "@react-three/drei";
 import mountain from "./assets/mountain.gltf";
 import flag from "./assets/flag.gltf";
 

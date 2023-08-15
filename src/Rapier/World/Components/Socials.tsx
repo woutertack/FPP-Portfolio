@@ -1,9 +1,9 @@
 // Credits gltf models: https://iconscout.com/3ds/
 
-import {  Text, useGLTF } from "@react-three/drei";
-import {  RigidBody } from "@react-three/rapier";
+import { Text, useGLTF } from "@react-three/drei";
+import { RigidBody } from "@react-three/rapier";
 
-import {  Vector3, Euler, MathUtils } from "three";
+import { Vector3, Euler, MathUtils } from "three";
 import { SOCIALS } from "./configs/Socials.config";
 import insta from "./assets/insta.gltf";
 import github from "./assets/github.gltf";
@@ -13,7 +13,7 @@ const Socials = (props: any) => {
   const { scene: instaScene }: any = useGLTF(insta);
   const { scene: githubScene }: any = useGLTF(github);
   const { scene: linkedinScene }: any = useGLTF(linkedin);
-  
+
   const handleSocialClick = (url: string) => {
     window.open(url, "_blank");
   };
@@ -25,13 +25,13 @@ const Socials = (props: any) => {
         rotation={new Euler(0, MathUtils.degToRad(198), 0)}
         type="fixed"
         fontSize={1.5}
-        color={0xFFFFFF}
+        color={0xffffff}
       >
         My socials
       </Text>
       {SOCIALS.map((social, index) => {
         return (
-          <>
+          <group key={index}>
             {/* linkedin */}
             <RigidBody
               position={new Vector3(11.35, 4, 17)}
@@ -70,14 +70,12 @@ const Socials = (props: any) => {
                     social.position[2],
                   )
                 }
-           
                 rotation={social.rotation}
                 type="fixed"
                 fontSize={0.5}
-                color={0xFFFFFF}
+                color={0xffffff}
                 onPointerEnter={(e) => {
                   e.object.scale.set(1.4, 1.4, 1.4);
-                
                 }}
                 onPointerLeave={(e) => {
                   e.object.scale.set(1, 1, 1);
@@ -88,8 +86,8 @@ const Socials = (props: any) => {
                 {social.name}
               </Text>
             </group>
-            ;
-          </>
+          </group>
+     
         );
       })}
       ;

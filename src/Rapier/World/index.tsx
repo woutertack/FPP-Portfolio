@@ -12,9 +12,7 @@ import { NameText } from "./Components/NameText";
 import Work from "./Components/Work";
 import { Dog } from "./Components/Dog";
 import Cat from "./Components/Cat";
-
 import Mountain from "./Components/Mountain";
-
 import SpotLights from "./Components/Spotlights";
 import { Bushes } from "./Components/nature/Bushes";
 import { Stump } from "./Components/nature/Stump";
@@ -51,6 +49,8 @@ const RapierWorld = (props: GroupProps) => {
         saturation={0}
         fade
       />
+      
+      {/* create border for the map */}
       <RigidBody type="fixed" colliders="trimesh">
         <Cylinder args={[20, 20, 50, 20]}>
           <meshBasicMaterial opacity={0} />
